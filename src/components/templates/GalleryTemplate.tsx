@@ -3,6 +3,10 @@ import { GalleryGrid, ImageItem } from '../organisms/GalleryGrid';
 import { Category, CategoryName } from '../molecules/Categories';
 import Header from '../organisms/Header';
 import CategoryList from '../molecules/CategoryList';
+import "@fontsource/hind/400.css";
+import "@fontsource/hind/500.css";
+import "@fontsource/hind/600.css";
+import "@fontsource/hind/700.css";
 
 export interface GalleryTemplateProps {
   images: ImageItem[];

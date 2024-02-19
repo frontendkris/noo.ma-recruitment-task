@@ -5,7 +5,7 @@ export interface SubtitleProps {
 }
 
 const Subtitle: React.FC<SubtitleProps> = ({ text }) => {
-  return <p className="selection:w-full max-w-[510px] text-brand-gray text-base">{text}</p>
+  return <p className="selection:w-full max-w-[550px] text-brand-gray text-base">{text}</p>
 }
 
 export default Subtitle;

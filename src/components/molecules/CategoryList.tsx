@@ -12,7 +12,7 @@ const CategoryList: React.FC<CategoryListProps> = ({ categories, selectedCategor
   const ID = useId();
 
   return (
-    <div className="flex flex-col items-stretch justify-stretch gap-3 md:flex-row md:justify-center md:items-center">
+    <div className="flex flex-col items-stretch justify-stretch gap-2 lg:gap-3 md:flex-row md:justify-center md:items-center">
       {categories.map((category) => (
         <Button
           key={`${ID}-${category.name}`}

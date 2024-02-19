@@ -8,12 +8,14 @@ const App: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<CategoryName>('all');
   
   return (
-    <GalleryTemplate
-      images={productList}
-      categories={Categories}
-      selectedCategory={selectedCategory}
-      onSelectCategory={setSelectedCategory}
-    />
+    <>
+      <GalleryTemplate
+        images={productList}
+        categories={Categories}
+        selectedCategory={selectedCategory}
+        onSelectCategory={setSelectedCategory}
+      />
+    </>
   );
 };
 

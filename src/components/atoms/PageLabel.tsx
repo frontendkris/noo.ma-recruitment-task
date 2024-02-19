@@ -5,7 +5,7 @@ export interface PageLabelProps {
 }
 
 const PageLabel: React.FC<PageLabelProps> = ({ text }) => {
-  return <p className="text-brand-gray-light uppercase font-medium text-xs mb-0">{text}</p>
+  return <p className="text-brand-gray-light uppercase font-medium text-xs mb-0 tracking-wider">{text}</p>
 }
 
 export default PageLabel;
