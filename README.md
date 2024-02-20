@@ -27,6 +27,7 @@ The core requirements (design) were implemented within 4.5 hours. An additional 
 
 ### Enhancements
 
+- **Entrance animtaion**: gallery up-slide animation for page load.
 - **Image Reveal**: Images unveil as the user scrolls down, adding a dynamic feel to the gallery.
 - **Smooth scroll to Gallery**: A feature that scrolls the user down to the gallery section upon unlocking.
 - **Subtle Image Hovering**: Slight background enhancement for improved text readability.
