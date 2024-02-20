@@ -16,7 +16,7 @@ const ProductImage: React.FC<ImageProps & { isEverythingVisible: boolean }> = ({
   title,
   className,
   category,
-  isEverythingVisible
+  isEverythingVisible,
 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });

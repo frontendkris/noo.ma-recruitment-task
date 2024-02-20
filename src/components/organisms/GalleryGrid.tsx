@@ -36,6 +36,7 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({ images, selectedCatego
     <div
       ref={galleryRef}
       className={`
+        animate-slide-up
         relative w-full px-2 lg:px-10 pt-8 pb-48
         ${isEverythingVisible ? "max-h-max" : "max-h-[445px] lg:max-h-[732px]"}
         overflow-hidden

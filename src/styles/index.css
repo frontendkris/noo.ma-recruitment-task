@@ -22,3 +22,20 @@
     background: linear-gradient(to bottom, transparent 0%, white calc(95% - 10px));
   }
 }
+
+@layer utilities {
+  @keyframes slide-up {
+    from {
+      transform: translateY(25vh);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-up {
+    animation: slide-up 0.5s ease-out forwards;
+  }
+}
